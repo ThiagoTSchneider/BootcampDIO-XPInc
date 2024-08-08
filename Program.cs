@@ -102,7 +102,6 @@ string astring = as1.ToString();
 Console.WriteLine($"{astring} Cast - Casting");
 
 
-
 //Convert --> Convert treats null differently than Parse | Converts null to 0 <-- Recommended
 //Parse --> Parse treats null as an error | Value cannot be null
 
@@ -119,6 +118,11 @@ int b = 20;
 
 int c = a + b;
 
+
+// c = c + 5; <-- same as c += 5;
+// c = c - 5; <-- same as c -= 5;
+// c = c * 5; <-- same as c *= 5;
+// c = c / 5; <-- same as c /= 5;
 
 c += 5;
 c /= 5;
