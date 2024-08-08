@@ -64,7 +64,7 @@ else
 string asecure = "15-"; // "15-" <-- error | wrong format
 
 
-
+// TryParse --> Try  to convert a string to a int | If it is possible, it will convert | if not return 0
 int.TryParse(asecure, out int bsecure); // If omitted must specify the type of the variable on the arguments
 
 Console.WriteLine($"{bsecure} Convert");
