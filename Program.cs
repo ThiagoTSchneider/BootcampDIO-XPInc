@@ -78,7 +78,10 @@ lk = 4 / (2 + 2);  // = 1
 Console.WriteLine($"{lk} Double");
 
 
+//This is a inplicit conversion
+//When you call double m = l; it does a conversion to double
 
+//Inplicit - Conversion
 int l = 5;
 double m = l;
 
