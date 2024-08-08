@@ -45,7 +45,8 @@ Console.WriteLine($"Possibilidade de realizar Venda:{possibilidadeVenda}");
 Console.WriteLine($"Quantidade em Estoque:{produtoEmEstoque}");
 
 
-
+//Bool variable if true make the transaction | If not say it's out of stock
+//Only 2 possibles states True or False | True = Procede with IF | False = Procede with ELSE
 if (produtoCompra == 0){
     Console.WriteLine("Por favor inserir Quantidade de compra");
 }
