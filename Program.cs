@@ -12,12 +12,24 @@
 //string b = a.ToString();
 //or use string at the call of the variable
 
+//Logic Operators
+//--> NOT (!) | Change the value of the variable --> if True <--> False
+bool rained = true;
+rained = !rained;
+
+//If True --> False | If False --> True
+if (!rained){
+    Console.WriteLine("Go Biking");
+    Console.WriteLine(rained);
+}
+
 
 //Logic Operators
 //--> AND (&&) | Checks if both conditions are true --> if not return false
 bool  old = true;
 bool  authorization = false;
 
+//if only both of them are true --> Procede 
 if (old && authorization){
     Console.WriteLine("Entrada Permitida"); //enter
 }
