@@ -13,6 +13,38 @@
 //or use string at the call of the variable
 
 
+//Logic Operators 
+//--> OR (Pipe, || ) | Checks if one of the conditions is true --> 
+bool  oldenough = true;
+bool  hasAuthorization = false;
+
+//if only validate if one of the conditions is true
+if (oldenough || hasAuthorization){
+    Console.WriteLine("入れる"); //enter
+}
+else{
+    Console.WriteLine("入れない"); //do not enter
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Console.WriteLine("Digite uma letra");
 
 //Console.ReadLine(); well it kinda explains itself :p
