@@ -3,7 +3,8 @@
 //pessoaFisica <--> [c]amel[C]ase | Variables is always --> camelCase 
 //Special Characthers in Variables is a no no :) only underline --> _
 //altura.ToString("0.00")); <-- doubles ignores the unit of the decimal case  | Fix needed in certains cases --> decimal more likely to be used in this cases
-
+//Decimal has to have a [M] in the end
+//Methods | Function --> [P]ascal[C]ase
 
 Console.WriteLine("Digite uma letra");
 
