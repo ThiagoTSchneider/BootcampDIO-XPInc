@@ -103,6 +103,9 @@ Console.WriteLine($"{astring} Cast - Casting");
 
 
 
+//Convert --> Convert treats null differently than Parse | Converts null to 0 <-- Recommended
+//Parse --> Parse treats null as an error | Value cannot be null
+
 int ac1 = int.Parse("5");
 
 Type atype = ac1.GetType();
