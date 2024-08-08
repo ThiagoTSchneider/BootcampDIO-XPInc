@@ -15,11 +15,19 @@
 //Logic Operators
 //--> NOT (!) | Change the value of the variable --> if True <--> False
 bool rained = true;
+bool itslate = false;
+
 rained = !rained;
 
 //If True --> False | If False --> True
-if (!rained){
+//Don't know why but its late was saying its was true ;P
+//Can be used more operators | Can be used to create more complex conditions
+if (!rained && !itslate){
     Console.WriteLine("Go Biking");
+    Console.WriteLine(rained);
+}
+else{
+    Console.WriteLine("Stay Home");
     Console.WriteLine(rained);
 }
 
