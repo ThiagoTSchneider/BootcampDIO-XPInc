@@ -6,6 +6,13 @@
 //Decimal has to have a [M] in the end
 //Methods | Function --> [P]ascal[C]ase
 
+//cannot convert int to string
+//must do the conversion manually
+//int a = 5;
+//string b = a.ToString();
+//or use string at the call of the variable
+
+
 Console.WriteLine("Digite uma letra");
 
 //Console.ReadLine(); well it kinda explains itself :p
