@@ -13,6 +13,19 @@
 //or use string at the call of the variable
 
 
+//Logic Operators
+//--> AND (&&) | Checks if both conditions are true --> if not return false
+bool  old = true;
+bool  authorization = false;
+
+if (old && authorization){
+    Console.WriteLine("Entrada Permitida"); //enter
+}
+else{
+    Console.WriteLine("Entrada Negada"); //do not enter
+}
+
+
 //Logic Operators 
 //--> OR (Pipe, || ) | Checks if one of the conditions is true --> 
 bool  oldenough = true;
@@ -25,24 +38,6 @@ if (oldenough || hasAuthorization){
 else{
     Console.WriteLine("入れない"); //do not enter
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Console.WriteLine("Digite uma letra");
