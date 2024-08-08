@@ -91,7 +91,10 @@ Console.WriteLine($"{m} Inplicit - Conversion");
 Console.WriteLine(t);
 
 
+//In some situations, variable may come in int
+//Then Casting is needed
 
+//Cast - Casting
 int as1 = 5;
 string astring = as1.ToString();
 
