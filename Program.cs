@@ -70,7 +70,7 @@ int.TryParse(asecure, out int bsecure); // If omitted must specify the type of t
 Console.WriteLine($"{bsecure} Convert");
 
 
-
+//Operation Order
 double lk = 4 / 2 + 2; // = 4
 lk = 4 / (2 + 2);  // = 1
 
