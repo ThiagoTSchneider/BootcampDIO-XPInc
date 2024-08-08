@@ -35,7 +35,7 @@ switch (letra)
 }
 
 
-
+//&& --> Means if condition is True procede | if produtoCompra is higher than 0 procede
 int produtoCompra = 0;
 int produtoEmEstoque = 30;
 bool possibilidadeVenda = produtoCompra > 0 && produtoEmEstoque >= produtoCompra;
